@@ -23,7 +23,7 @@ class VendaInternacional extends Produto implements Venda {
 
     @Override
     public double calcularDesconto() {
-        return totalVenda() * 0.05; // 5% do total da venda
+        return totalVenda() * 0.05;
     }
 
     @Override
